@@ -7,6 +7,7 @@
 
 ## 2. Especificação dos casos de uso
 
+| Campo          | Informação        |
 |---|---|
 | Identificador: | MK01              |
 | Nome:          | Registrar chamado |
