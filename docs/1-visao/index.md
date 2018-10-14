@@ -7,13 +7,6 @@ apresentando os problemas a serem solucionados, as necessidades dos principais e
 
 * Estabelecer de uma forma para que nenhum intruso entre no estabelecimento sem permissao
 * Registrar a hora de entrada e saida de estudantes/funcionarios
-
-## Integração com outros sistemas
-
-* Sistema externo 1
-* Sistema externo 2
-* Sistema externo 3
-* etc.
  
 ## Interessados
 
