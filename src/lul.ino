@@ -32,7 +32,6 @@ void loop()
   {
     return;
   }
-  //Mostra UID na serial
   Serial.print("UID da tag :");
   String conteudo= "";
   byte letra;
@@ -48,11 +47,11 @@ void loop()
   conteudo.toUpperCase();
   if (conteudo.substring(1) == "ED 78 03 CA") //UID 1 - Chaveiro
   {
-    Serial.println("Ola FILIPEFLOP !");
+    Serial.println("Ola Thiago !");
     Serial.println();
     lcd.clear();
     lcd.setCursor(0,0);
-    lcd.print("Ola FILIPEFLOP !");
+    lcd.print("Ola Thiago !");
     lcd.setCursor(0,1);
     lcd.print("Acesso liberado!");
     delay(3000);
@@ -61,11 +60,11 @@ void loop()
  
   if (conteudo.substring(1) == "BD 9B 06 7D") //UID 2 - Cartao
   {
-    Serial.println("Ola Cartao !");
+    Serial.println("Cartao Invalido !");
     Serial.println();
     lcd.clear();
     lcd.setCursor(0,0);
-    lcd.print("Ola Cartao !");
+    lcd.print("Cartao Invalido !");
     lcd.setCursor(0,1);
     lcd.print("Acesso Negado !");
     delay(3000);
