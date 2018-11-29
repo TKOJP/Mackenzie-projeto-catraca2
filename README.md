@@ -14,3 +14,15 @@
 ## Cartao de ID
 ## Chaveiro ID
 ## Jumpers macho-macho
+## - Conexões do RFID:
+## Pino DAS ligado na porta 10 do Arduino
+## Pino SCK ligado na porta 13 do Arduino
+## Pino MOSI ligado na porta 11 do Arduino
+## Pino MISO ligado na porta 12 do Arduino
+## Pino NC não conectado
+## Pino GND ligado no pino GND do Arduino
+## Pino RST ligado na porta 9 do Arduino
+## Pino 3.3 ligado no pino 3.3 V do Arduino
+## - Programando no Arduino:
+## Uma das chaves pra rodar o Sketch (que vai estar neste documento) e a instalação da biblioteca MFRC522
+
