@@ -12,7 +12,7 @@ void setup()
   Serial.begin(9600);   
   SPI.begin();      
   mfrc522.PCD_Init();
-  Serial.println("Aproxime o seu cartao do leitor...");
+  Serial.println("Aproxime o seu cartao do leitor");
   Serial.println();  
   lcd.begin(16, 2);  
   mensageminicial();
@@ -40,7 +40,7 @@ void loop()
   Serial.println();
   Serial.print("Mensagem : ");
   conteudo.toUpperCase();
-  if (conteudo.substring(1) == "F3 A3 0E 27") //UI do Cartao
+  if (conteudo.substring(1) == "F3 A3 0E 27") 
   {
     Serial.println("Ola Thiago!");
     Serial.println();
@@ -52,7 +52,7 @@ void loop()
     delay(3000);
     mensageminicial();
   }
-  if (conteudo.substring(1) == "83 62 56 73") //ID do Chaveiro
+  if (conteudo.substring(1) == "83 62 56 73") 
   {
     Serial.println("ID Invalido!");
     Serial.println();
@@ -60,7 +60,7 @@ void loop()
     lcd.setCursor(0,0);
     lcd.print("ID Invalido!");
     lcd.setCursor(0,1);
-    lcd.print("Acesso Negado !");
+    lcd.print("Acesso Negado!");
     delay(3000);
     mensageminicial();
   }
